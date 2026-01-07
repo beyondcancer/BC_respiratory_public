@@ -12,3 +12,12 @@ _"Risks of adverse respiratory outcomes in adults with cancer over the course of
 **Results:** 789,254 adults with incident cancer were included. Compared with cancer-free individuals, elevated risks of developing chronic obstructive pulmonary disease were observed in 11 cancers (Hazard ratio [HR] 5.19 increased risk for lung cancer; other HRs ranging from 1.06-1.72); for 8 of these cancers, raised risks persisted beyond 5 years from diagnosis. Interstitial lung disease risk was raised in 18 cancers  (HRs>5 in CNS, oesophageal and lung cancers, and HR>2 in 7 further cancers); raised risks persisted beyond 5 years after diagnosis in 11 cancers. New-onset bronchiectasis risk was increased in oesophageal, lung and haematological cancers while new-onset asthma risk was raised in non-Hodgkin lymphoma only. Rates of exacerbations of pre-existing respiratory diseases were raised in survivors of oesophageal, liver, lung, pancreatic, central nervous system, and haematological cancers, compared with cancer-free individuals. 
 
 **Conclusion:** Survivors of most types of cancer had substantial and sometimes prolonged raised risk of a range of respiratory conditions, highlighting the need for respiratory health awareness in survivorship care. Targeted management, smoking cessation, and vaccination may be warranted for those at highest risk. 
+
+------------
+
+## Repository Scope
+
+This repository includes data management code for deriving respiratory outcomes and all analysis code used in the study.
+
+Codelists are provided for both outcomes and covariates.  
+However, data management code for covariates is not included due to data access and governance constraints.
