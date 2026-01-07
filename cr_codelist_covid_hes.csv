@@ -1,9 +1,0 @@
-icd,term,out_cat,cat_resp,certlevel
-U07.1,"covid-19, virus identified/ nos - lab confirmed",dx_inc,,
-U07.2,"covid-19, virus not identified - clinical/epi confirmed",dx_inc,,
-U08,personal history of covid-19,dx_inc,,
-U08.9,"personal history of covid-19, unspecified",dx_inc,,
-U09,post covid-19 condition,dx_inc,,
-U09.9,"post covid-19 condition, unspecified",dx_inc,,
-U10 ,multisystem inflammatory syndrome associated with covid-19,dx_inc,,
-U10.9,"multisystem inflammatory syndrome associated with covid-19, unspecified",dx_inc,,
