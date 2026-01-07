@@ -1,4 +1,4 @@
-# **Data manageement and analysis scripts for manuscript:**
+# **Data management and analysis scripts for manuscript:**
 _"Risks of adverse respiratory outcomes in adults with cancer over the course of survivorship compared with cancer-free individuals: a matched cohort study using linked English Electronic Health Records"_
 
 **Authors**: Kirsty Andresen, Helena Carreira, Harriet Forbes, Liza Bowen, Jennifer K Quint, Elizabeth Williamson, Krishnan Bhaskaran
