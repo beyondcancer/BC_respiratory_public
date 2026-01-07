@@ -1,0 +1,10 @@
+icd,term,out_cat,cat_resp,certlevel,source,include
+J45,asthma,dx_inc,,,icd_original,yes
+J45.0,predominantly allergic asthma,dx_inc,,,icd_original,yes
+J45.1,nonallergic asthma,dx_inc,,,icd_original,yes
+J45.8,mixed asthma,dx_inc,,,icd_original,yes
+J45.9,"asthma, unspecified",dx_inc,,,icd_original,yes
+J46,status asthmaticus,dx_inc,,,icd_original,yes
+4930,Extrinsic asthma,dx_inc,,,icd9_1,yes
+4931,Intrinsic asthma,dx_inc,,,icd9_1,yes
+4939,"Asthma, unspecified",dx_inc,,,icd9_1,yes

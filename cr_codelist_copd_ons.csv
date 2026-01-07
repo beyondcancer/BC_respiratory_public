@@ -1,0 +1,27 @@
+icd,term,out_cat,cat_resp,certlevel,include
+J41,simple and mucopurulent chronic bronchitis,dx_inc,chronic bronchitis,,yes
+J41.0,simple chronic bronchitis,dx_inc,chronic bronchitis,,yes
+J41.1,mucopurulent chronic bronchitis,dx_inc,chronic bronchitis,,yes
+J41.8,mixed simple and mucopurulent chronic bronchitis,dx_inc,chronic bronchitis,,yes
+J42,unspecified chronic bronchitis,dx_inc,chronic bronchitis,,yes
+J43,emphysema,dx_inc,emphysema,,yes
+J43.0,macleod syndrome,dx_inc,emphysema,,yes
+J43.1,panlobular emphysema,dx_inc,emphysema,,yes
+J43.2,centrilobular emphysema,dx_inc,emphysema,,yes
+J43.8,other emphysema,dx_inc,emphysema,,yes
+J43.9,"emphysema, unspecified",dx_inc,emphysema,,yes
+J44,other chronic obstructive pulmonary disease,dx_inc,,,yes
+J44.0,chronic obstructive pulmonary disease with acute lower respiratory infection,dx_inc,,,yes
+J44.1,"chronic obstructive pulmonary disease with acute exacerbation, unspecified",dx_inc,,,yes
+J44.8,other specified chronic obstructive pulmonary disease + obliterating fibrous bronchiolitis,dx_inc,,,yes
+J44.9,"chronic obstructive pulmonary disease, unspecified",dx_inc,,,yes
+4910,Simple chronic bronchitis,dx_inc,chronic bronchitis,,yes
+4911,Mucopurulent chronic bronchitis,dx_inc,chronic bronchitis,,yes
+4918,Other chronic bronchitis,dx_inc,chronic bronchitis,,yes
+4789,Other and unspecified diseases of upper respiratory tract,dx_inc,chronic bronchitis,,yes
+492,Emphysema,dx_inc,emphysema,,yes
+496,"Chronic airways obstruction, not elsewhere classified",dx_inc,,,yes
+4912,Obstructive chronic bronchitis,dx_inc,chronic bronchitis,,yes
+4910,Simple chronic bronchitis,dx_inc,chronic bronchitis,,yes
+4918,Other chronic bronchitis,dx_inc,chronic bronchitis,,yes
+4919,Chronic bronchitis Unspecified,dx_inc,chronic bronchitis,,yes

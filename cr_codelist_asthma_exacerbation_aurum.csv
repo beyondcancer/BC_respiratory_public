@@ -1,0 +1,37 @@
+"medcodeid","term","out_cat","cat_resp","certlevel"
+"350151019","acute exacerbation of allergic asthma",NA,NA,NA
+"419211018","acute exacerbation of asthma",NA,NA,NA
+"8031201000006110","acute exacerbation of asthma co-occurrent with allergic rhinitis",NA,NA,NA
+"7258581000006114","acute exacerbation of chronic asthmatic bronchitis",NA,NA,NA
+"8090191000006114","acute exacerbation of chronic obstructive bronchitis",NA,NA,NA
+"350156012","acute exacerbation of intrinsic asthma",NA,NA,NA
+"8042581000006114","acute exacerbation of mild persistent asthma",NA,NA,NA
+"8042571000006111","acute exacerbation of moderate persistent asthma",NA,NA,NA
+"2010031000006116","acute infective exacerbation of asthma",NA,NA,NA
+"2010041000006114","acute non-infective exacerbation of asthma",NA,NA,NA
+"7628301000006111","acute severe exacerbation of allergic asthma",NA,NA,NA
+"145961000006117","acute severe exacerbation of asthma",NA,NA,NA
+"3514925011","acute severe exacerbation of asthma co-occurrent and due to allergic asthma",NA,NA,NA
+"7628321000006118","acute severe exacerbation of immunoglobin e-mediated allergic asthma",NA,NA,NA
+"7628331000006115","acute severe exacerbation of intrinsic asthma",NA,NA,NA
+"7626531000006113","acute severe exacerbation of moderate persistent asthma",NA,NA,NA
+"7626521000006110","acute severe exacerbation of severe persistent asthma",NA,NA,NA
+"7961271000006111","acute severe refractory exacerbation of asthma",NA,NA,NA
+"1173471000000110","antibiotic therapy for acute pulmonary exacerbation",NA,NA,NA
+"9317311000006120","chronic obstructive asthma co-occurrent with acute exacerbation of asthma",NA,NA,NA
+"8285721000006113","dose (dyspnoea, airflow obstruction, smoking status, exacerbation frequency) index",NA,NA,NA
+"11930621000006114","dyspnoea, airflow obstruction, smoking status, exacerbation frequency index",NA,NA,NA
+"283550015","emergency hospital admission for asthma",NA,NA,NA
+"3637387011","exacerbation of allergic asthma",NA,NA,NA
+"13619961000006120","exacerbation of allergic asthma due to infection",NA,NA,NA
+"5649191000006110","exacerbation of asthma",NA,NA,NA
+"7052221000006118","exacerbation of intermittent asthma",NA,NA,NA
+"7617611000006112","exacerbation of mild persistent asthma",NA,NA,NA
+"7617621000006116","exacerbation of moderate persistent asthma",NA,NA,NA
+"7617631000006118","exacerbation of severe persistent asthma",NA,NA,NA
+"151338014","life threatening acute exacerbation of allergic asthma",NA,NA,NA
+"396118011","life threatening acute exacerbation of asthma",NA,NA,NA
+"98546013","life threatening acute exacerbation of intrinsic asthma",NA,NA,NA
+"3511374015","moderate acute exacerbation of asthma",NA,NA,NA
+"1208962015","number of asthma exacerbations in past year",NA,NA,NA
+"1834301000006114","oxygen therapy during exacerbations",NA,NA,NA

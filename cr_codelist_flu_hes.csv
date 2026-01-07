@@ -1,0 +1,10 @@
+icd,term,out_cat,cat_resp,certlevel
+J09,influenza due to identified zoonotic or pandemic influenza virus,dx_inc,,
+J10,influenza due to identified seasonal influenza virus,dx_inc,,
+J10.0,"influenza with pneumonia, seasonal influenza virus identified",dx_inc,,
+J10.1,"influenza with other respiratory manifestations, seasonal influenza virus identified",dx_inc,,
+J10.8,"influenza with other manifestations, seasonal influenza virus identified",dx_inc,,
+J11,"influenza, virus not identified",dx_inc,,
+J11.0,"influenza with pneumonia, virus not identified",dx_inc,,
+J11.1,"influenza with other respiratory manifestations, virus not identified",dx_inc,,
+J11.8,"influenza with other manifestations, virus not identified",dx_inc,,

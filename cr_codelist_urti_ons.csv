@@ -1,0 +1,102 @@
+icd,term,out_cat,cat_resp,certlevel,source,include
+J00,acute nasopharyngitis [common cold],dx_inc,nasopharyngitis,0,icd_original,yes
+J01,acute sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J01.0,acute maxillary sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J01.1,acute frontal sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J01.2,acute ethmoidal sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J01.3,acute sphenoidal sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J01.4,acute pansinusitis,dx_inc,sinusitis,0,icd_original,yes
+J01.8,other acute sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J01.9,"acute sinusitis, unspecified",dx_inc,sinusitis,0,icd_original,yes
+J02,acute pharyngitis,dx_inc,pharyngitis,0,icd_original,yes
+J02.0,streptococcal pharyngitis,dx_inc,pharyngitis,0,icd_original,yes
+J02.8,acute pharyngitis due to other specified organisms,dx_inc,pharyngitis,0,icd_original,yes
+J02.9,"acute pharyngitis, unspecified",dx_inc,pharyngitis,0,icd_original,yes
+J03,acute tonsillitis,dx_inc,tonsilitis,0,icd_original,yes
+J03.0,streptococcal tonsillitis,dx_inc,tonsilitis,0,icd_original,yes
+J03.8,acute tonsillitis due to other specified organisms,dx_inc,tonsilitis,0,icd_original,yes
+J03.9,"acute tonsillitis, unspecified",dx_inc,tonsilitis,0,icd_original,yes
+J04,acute laryngitis and tracheitis,dx_inc,laryngotracheitis,0,icd_original,yes
+J04.0,acute laryngitis,dx_inc,laryngitis,0,icd_original,yes
+J04.1,acute tracheitis,dx_inc,tracheitis,0,icd_original,yes
+J04.2,acute laryngotracheitis,dx_inc,laryngotracheitis,0,icd_original,yes
+J05,acute obstructive laryngitis [croup] and epiglottitis,dx_inc,laryngitis,0,icd_original,yes
+J05.0,acute obstructive laryngitis [croup],dx_inc,laryngitis,0,icd_original,yes
+J06,acute upper respiratory infections of multiple and unspecified sites,dx_inc,nasopharyngitis,0,icd_original,yes
+J06.0,acute laryngopharyngitis,dx_inc,pharyngitis,0,icd_original,yes
+J06.8,other acute upper respiratory infections of multiple sites,dx_inc,nasopharyngitis,0,icd_original,yes
+J06.9,"acute upper respiratory infection, unspecified",dx_inc,nasopharyngitis,0,icd_original,yes
+J20,acute bronchitis,dx_inc,acute bronchitis,0,icd_original,yes
+J20.0,acute bronchitis due to mycoplasma pneumoniae,dx_inc,acute bronchitis,0,icd_original,yes
+J20.1,acute bronchitis due to haemophilus influenzae,dx_inc,acute bronchitis,0,icd_original,yes
+J20.2,acute bronchitis due to streptococcus,dx_inc,acute bronchitis,0,icd_original,yes
+J20.3,acute bronchitis due to coxsackievirus,dx_inc,acute bronchitis,0,icd_original,yes
+J20.4,acute bronchitis due to parainfluenza virus,dx_inc,acute bronchitis,0,icd_original,yes
+J20.5,acute bronchitis due to respiratory syncytial virus,dx_inc,acute bronchitis,0,icd_original,yes
+J20.6,acute bronchitis due to rhinovirus,dx_inc,acute bronchitis,0,icd_original,yes
+J20.7,acute bronchitis due to echovirus,dx_inc,acute bronchitis,0,icd_original,yes
+J20.8,acute bronchitis due to other specified organisms,dx_inc,acute bronchitis,0,icd_original,yes
+J20.9,"acute bronchitis, unspecified",dx_inc,acute bronchitis,0,icd_original,yes
+J30,vasomotor and allergic rhinitis,dx_inc,rhinitis,0,icd_original,yes
+J30.0,vasomotor rhinitis,dx_inc,rhinitis,0,icd_original,yes
+J30.1,allergic rhinitis due to pollen,dx_inc,rhinitis,0,icd_original,yes
+J30.2,other seasonal allergic rhinitis,dx_inc,rhinitis,0,icd_original,yes
+J30.3,other allergic rhinitis,dx_inc,rhinitis,0,icd_original,yes
+J30.4,"allergic rhinitis, unspecified",dx_inc,rhinitis,0,icd_original,yes
+J31,"chronic rhinitis, nasopharyngitis and pharyngitis",dx_inc,rhinitis,0,icd_original,yes
+J31.0,chronic rhinitis,dx_inc,rhinitis,0,icd_original,yes
+J31.1,chronic nasopharyngitis,dx_inc,nasopharyngitis,0,icd_original,yes
+J31.2,chronic pharyngitis,dx_inc,pharyngitis,0,icd_original,yes
+J32,chronic sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J32.0,chronic maxillary sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J32.1,chronic frontal sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J32.2,chronic ethmoidal sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J32.3,chronic sphenoidal sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J32.4,chronic pansinusitis,dx_inc,sinusitis,0,icd_original,yes
+J32.8,other chronic sinusitis,dx_inc,sinusitis,0,icd_original,yes
+J32.9,"chronic sinusitis, unspecified",dx_inc,sinusitis,0,icd_original,yes
+J35,chronic diseases of tonsils and adenoids,dx_inc,tonsilitis,0,icd_original,yes
+J36,peritonsillar abscess,dx_inc,tonsilitis,0,icd_original,yes
+J37,chronic laryngitis and laryngotracheitis,dx_inc,laryngotracheitis,0,icd_original,yes
+J37.0,chronic laryngitis,dx_inc,laryngitis,0,icd_original,yes
+J37.1,chronic laryngotracheitis,dx_inc,laryngotracheitis,0,icd_original,yes
+340,Multiple sclerosis,dx_inc,,1,icd9_1,no
+4610,Acute sinusitis maxillary,dx_inc,sinusitis,0,icd9_1,yes
+4611,Acute sinusitis frontal,dx_inc,sinusitis,0,icd9_1,yes
+4612,Acute sinusitis ethmoidal,dx_inc,sinusitis,0,icd9_1,yes
+4613,Acute sinusitis sphenoidal,dx_inc,sinusitis,0,icd9_1,yes
+4618,Acute sinusitis other,dx_inc,sinusitis,0,icd9_1,yes
+4619,Acute sinusitis unspecified,dx_inc,sinusitis,0,icd9_1,yes
+462,Acute pharyngitis,dx_inc,pharyngitis,0,icd9_1,yes
+463,Acute tonsillitis,dx_inc,tonsilitis,0,icd9_1,yes
+4658,"Acute upper respiratory infections of multiple or unspecified sites, other multiple sites",dx_inc,,0,icd9_1,yes
+4660,Acute bronchitis,dx_inc,acute bronchitis,0,icd9_1,yes
+4779,"allergic rhinitis, Cause unspecified",dx_inc,rhinitis,0,icd9_1,yes
+4770,allergic rhinitis due to polen,dx_inc,rhinitis,0,icd9_1,yes
+4778,"allergic rhinitis, due to other allergen",dx_inc,rhinitis,0,icd9_1,yes
+4720,Chronic rhinitis,dx_inc,rhinitis,0,icd9_1,yes
+4722,Chronic nasopharyngitis,dx_inc,nasopharyngitis,0,icd9_1,yes
+4721,Chronic pharyngitis,dx_inc,pharyngitis,0,icd9_1,yes
+4730,"Chronic sinusitis, maxillary",dx_inc,sinusitis,0,icd9_1,yes
+4731,"Chronic sinusitis, frontal",dx_inc,sinusitis,0,icd9_1,yes
+4732,"Chronic sinusitis, ethmoidal",dx_inc,sinusitis,0,icd9_1,yes
+4733,"Chronic sinusitis, sphenoidal",dx_inc,sinusitis,0,icd9_1,yes
+4738,"Chronic sinusitis, other",dx_inc,sinusitis,0,icd9_1,yes
+4739,"Chronic sinusitis, unspecified",dx_inc,sinusitis,0,icd9_1,yes
+4740,Chronic tonsillitis,dx_inc,tonsilitis,0,icd9_1,yes
+475,Peritonsillar abscess,dx_inc,tonsilitis,0,icd9_1,yes
+4760,Chronic laryngitis,dx_inc,laryngitis,0,icd9_1,yes
+4761,Chronic laryngotracheitis,dx_inc,laryngotracheitis,0,icd9_1,yes
+460,Acute nasopharyngitis (common cold),dx_inc,nasopharyngitis,0,icd9_2,yes
+4782,"Other diseases of pharynx, not elsewhere classified",dx_inc,pharyngitis,0,icd9_2,yes
+4640,Acute laryngitis,dx_inc,laryngitis,0,icd9_2,yes
+4641,Acute tracheitis,dx_inc,tracheitis,0,icd9_2,yes
+4642,Acute laryngotracheitis,dx_inc,laryngotracheitis,0,icd9_2,yes
+4644,Croup,dx_inc,laryngitis,0,icd9_2,yes
+4650,Acute laryngopharyngitis,dx_inc,pharyngitis,0,icd9_2,yes
+4659,Acute upper respiratory infections of multiple or unspecified sites,dx_inc,,0,icd9_2,yes
+490,"Bronchitis, not specified as acute or chronic",dx_inc,acute bronchitis,1,icd9_2,?
+4781,"Other diseases of upper respiratory tract, Other diseases of nasal cavity and sinuses",dx_inc,sinusitis,0,icd9_2,yes
+4741,"Chronic disease of tonsils and adenoids, Hypertrophy of tonsils and adenoids",dx_inc,tonsilitis,0,icd9_2,yes
+4787,"Other diseases of upper respiratory tract,Other diseases of larynx, not elsewhere classified",dx_inc,laryngitis,0,icd9_3,yes
+4789,Other and unspecified diseases of upper respiratory tract,dx_inc,,0,icd9_3,yes

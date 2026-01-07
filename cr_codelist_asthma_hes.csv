@@ -1,0 +1,7 @@
+icd,term,out_cat,cat_resp,certlevel
+J45,asthma,dx_inc,,
+J45.0,predominantly allergic asthma,dx_inc,,
+J45.1,nonallergic asthma,dx_inc,,
+J45.8,mixed asthma,dx_inc,,
+J45.9,"asthma, unspecified",dx_inc,,
+J46,status asthmaticus,dx_inc,,

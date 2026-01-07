@@ -1,0 +1,7 @@
+icd,term,out_cat,cat_resp,certlevel,icd9_1,icd9_2,icd9_3
+J45,asthma,dx_inc,,,4930,,
+J45.0,predominantly allergic asthma,dx_inc,,,4930,4939,
+J45.1,nonallergic asthma,dx_inc,,,4931,,
+J45.8,mixed asthma,dx_inc,,,4930,4931,4939
+J45.9,"asthma, unspecified",dx_inc,,,4931,4939,
+J46,status asthmaticus,dx_inc,,,4939,,

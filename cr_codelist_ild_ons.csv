@@ -1,0 +1,192 @@
+icd,term,out_cat,cat_resp,certlevel,source,include,note
+0110,"Pulmonary tuberculosis, Tuberculosis of lung, infiltrative",dx_inc,Pulmonary fibrosis,1,icd9_1,no,include tuberculosis?
+0111,"Pulmonary tuberculosis, Tuberculosis of lung, nodular ",dx_inc,Pulmonary fibrosis,1,icd9_2,no,include tuberculosis?
+0112,"Pulmonary tuberculosis, Tuberculosis of lung with cavitation",dx_inc,Pulmonary fibrosis,1,icd9_3,no,include tuberculosis?
+0114,"Pulmonary tuberculosis, Tuberculous fibrosis of lung",dx_inc,Pulmonary fibrosis,1,icd9_4,no,include tuberculosis?
+0115,"Pulmonary tuberculosis, Tuberculous bronchiectasis",dx_inc,Pulmonary fibrosis,1,icd9_5,no,include tuberculosis?
+0116,"Pulmonary tuberculosis, Tuberculous pneumonia, any form",dx_inc,Pulmonary fibrosis,1,icd9_6,no,include tuberculosis?
+0117,"Pulmonary tuberculosis, Tuberculous pneumothorax",dx_inc,Pulmonary fibrosis,1,icd9_7,no,include tuberculosis?
+0118,"Pulmonary tuberculosis, Other pulmonary tuberculosis",dx_inc,Pulmonary fibrosis,1,icd9_8,no,include tuberculosis?
+0119,"Pulmonary tuberculosis, Unspecified",dx_inc,Pulmonary fibrosis,1,icd9_9,no,include tuberculosis?
+0120,Tuberculous pleurisy ,dx_inc,Pulmonary fibrosis,1,icd9_10,no,include tuberculosis?
+135,Sarcoidosis ,dx_inc,,1,icd9_1,no,include autoimmune diseases?
+500,Coalworkers' pneumoconiosis,dx_inc,Pulmonary fibrosis,0,icd9_1,yes,
+501,Asbestosis,dx_inc,Pulmonary fibrosis,0,icd9_1,yes,
+502,Pneumoconiosis due to other silica or silicates,dx_inc,,0,icd9_1,yes,
+503,Pneumoconiosis due to other inorganic dust ,dx_inc,,0,icd9_1,yes,
+504,Pneumopathy due to inhalation of other dust,dx_inc,,0,icd9_1,yes,
+505,"Pneumoconiosis, unspecified",dx_inc,,0,icd9_2,yes,
+514,Pulmonary congestion and hypostasis,dx_inc,,1,icd9_1,no,include autoimmune diseases?
+515,Postinflammatory pulmonary fibrosis,dx_inc,Pulmonary fibrosis,0,icd9_1,yes,
+1173,Aspergillosis,dx_inc,,1,icd9_1,no,include autoimmune diseases?
+2750,Disorders of iron metabolism,dx_inc,Pulmonary fibrosis,1,icd9_1,no,include autoimmune diseases?
+2770,Cystic fibrosis,dx_inc,Pulmonary fibrosis,1,icd9_1,no,include autoimmune diseases?
+2794,"Unspecified immunity deficiency (279.3) Autoimmune disease, not elsewhere classified",dx_inc,,1,icd9_1,no,include autoimmune diseases?
+2795,NA,dx_inc,Pulmonary fibrosis,1,icd9_1,no,doesnít exist
+4464,Wegener's granulomatosis,dx_inc,,1,icd9_1,no,include autoimmune diseases?
+4912,Obstructive chronic bronchitis,dx_inc,Pulmonary fibrosis,1,icd9_1,no,COPD?
+4918,Other chronic bronchitis,dx_inc,Pulmonary fibrosis,1,icd9_2,no,COPD?
+4950,Farmers' lung,dx_inc,Pulmonary fibrosis,0,icd9_1,yes,
+4951,Bagassosis ,dx_inc,,0,icd9_1,yes,
+4952,Bird fanciers' lung,dx_inc,,0,icd9_1,yes,
+4953,Suberosis,dx_inc,,0,icd9_1,yes,
+4954,Maltworkers' lung ,dx_inc,,0,icd9_1,yes,
+4955,Mushroom-workers' lung ,dx_inc,,0,icd9_1,yes,
+4956,Maple-bark-strippers' lung,dx_inc,,0,icd9_1,yes,
+4957,Ventilation pneumonitis,dx_inc,,0,icd9_1,yes,
+4958,Other allergic pneumonitis,dx_inc,,0,icd9_1,yes,
+4959,Unspecified allergic alveolitis,dx_inc,Pulmonary fibrosis,0,icd9_1,yes,
+5060,Bronchitis and pneumonitis due to fumes and vapors,dx_inc,,0,icd9_1,yes,
+5061,Bronchitis and pneumonitis due to fumes and vapors,dx_inc,,0,icd9_1,yes,
+5062,Upper respiratory inflammation due to fumes and vapors ,dx_inc,,0,icd9_1,yes,
+5063,Other acute and subacute respiratory conditions due to fumes and vapors ,dx_inc,,0,icd9_1,yes,
+5064,Chronic respiratory conditions due to fumes and vapors ,dx_inc,Pulmonary fibrosis,0,icd9_1,yes,
+5069,"Respiratory conditions due to chemical fumes and vapor, unspecified",dx_inc,,0,icd9_1,yes,
+5070,"Pneumonitis due to solids and liquids, Due to inhalation of food or vomit",dx_inc,,0,icd9_1,yes,
+5071,"Pneumonitis due to solids and liquids,Due to inhalation of oils and essences",dx_inc,,0,icd9_1,yes,
+5078,"Pneumonitis due to solids and liquids, other",dx_inc,,0,icd9_1,yes,
+5080,Acute pulmonary manifestations due to radiation ,dx_inc,,0,icd9_1,yes,
+5081,Chronic and other pulmonary manifestations due to radiation,dx_inc,,0,icd9_1,yes,
+5088,Chronic and other pulmonary manifestations due to radiation (,dx_inc,Pulmonary fibrosis,0,icd9_1,yes,
+5089,Respiratory conditions due to other and unspecified external agents ,dx_inc,,0,icd9_1,yes,
+5110,Pleurisy Without mention of effusion or current tuberculosis (511.0),dx_inc,Pulmonary fibrosis,0,icd9_1,yes,
+5118,"Pleurisy, Other specified forms of effusion, except tuberculosis",dx_inc,Pulmonary fibrosis,0,icd9_2,yes,
+5119,Unspecified pleural effusion ,dx_inc,Pulmonary fibrosis,0,icd9_3,yes,
+5160,Pulmonary alveolar proteinosis ,dx_inc,,0,icd9_1,yes,
+5162,Pulmonary alveolar microlithiasis,dx_inc,,0,icd9_2,yes,
+5163,Idiopathic fibrosing alveolitis,dx_inc,Pulmonary fibrosis,0,icd9_2,yes,
+5168,"Other alveolar and parietoalveolar pneumopathy, other",dx_inc,Pulmonary fibrosis,0,icd9_1,yes,
+5169,"Other alveolar and parietoalveolar pneumopathy, Unspecified",dx_inc,Pulmonary fibrosis,0,icd9_2,yes,
+5181,Interstitial emphysema,dx_inc,,1,icd9_1,no,is this copd?
+5183,Pulmonary eosinophilia,dx_inc,,0,icd9_1,yes,
+5184,"Acute edema of lung, unspecified",dx_inc,,0,icd9_2,yes,
+5185,Pulmonary insufficiency following trauma and surgery,dx_inc,,0,icd9_1,yes,
+5188,"Pulmonary insufficiency following trauma and surgery, Other diseases of lung, not elsewhere classified",dx_inc,Pulmonary fibrosis,0,icd9_4,yes,
+5191,"Other diseases of trachea and bronchus, not elsewhere classified ",dx_inc,,0,icd9_3,yes,
+5198,"Other diseases of respiratory system, not elsewhere classified",dx_inc,Pulmonary fibrosis,0,icd9_5,yes,
+7100,Systemic lupus erythematosus ,dx_inc,,1,icd9_1,no,include autoimmune diseases?
+7101,Systemic sclerosis,dx_inc,Pulmonary fibrosis,1,icd9_1,no,include autoimmune diseases?
+7102,Sicca syndrome ,dx_inc,,1,icd9_1,no,include autoimmune diseases?
+7108,"Diffuse diseases of connective tissue, other",dx_inc,Pulmonary fibrosis,1,icd9_1,no,include autoimmune diseases?
+7142,Other rheumatoid arthritis with visceral or systemic involvement,dx_inc,Pulmonary fibrosis,1,icd9_1,no,include autoimmune diseases?
+7148,"Rheumatoid arthritis and other inflammatory polyarthropathies, other",dx_inc,Pulmonary fibrosis,1,icd9_2,no,include autoimmune diseases?
+7280,Infective myositis,dx_inc,,1,icd9_1,no,include autoimmune diseases?
+7288,"Other disorders of muscle, ligament, and fascia ",dx_inc,,1,icd9_1,no,include autoimmune diseases?
+7289,"Unspecified disorders of muscle, ligament, and fascia ",dx_inc,,1,icd9_1,no,include autoimmune diseases?
+7707,Chronic respiratory disease arising in the perinatal period,dx_inc,Pulmonary fibrosis,0,icd9_1,no,is this for children?
+4847A,NA,dx_inc,Pulmonary fibrosis,1,icd9_1,no,doesnít exist
+4848A,NA,dx_inc,Pulmonary fibrosis,1,icd9_1,no,doesnít exist
+5170A,NA,dx_inc,Pulmonary fibrosis,1,icd9_1,no,doesnít exist
+5171A,NA,dx_inc,Pulmonary fibrosis,1,icd9_2,no,doesnít exist
+5172A,NA,dx_inc,Pulmonary fibrosis,1,icd9_1,no,doesnít exist
+5178A,NA,dx_inc,Pulmonary fibrosis,1,icd9_2,no,doesnít exist
+A16.2,tuberculous fibrosis of lung,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+B20.8,hiv disease resulting in other infectious and parasitic diseases,dx_inc,Pulmonary fibrosis,1,icd_original,no,include autoimmune diseases?
+B22.1,hiv disease resulting in lymphoid interstitial pneumonitis,dx_inc,,0,icd_original,yes,
+B44,aspergillosis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+B44.0,invasive pulmonary aspergillosis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+B44.1,other pulmonary aspergillosis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+B44.2,tonsillar aspergillosis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+B44.7,disseminated aspergillosis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+B44.8,other forms of aspergillosis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+B44.9,"aspergillosis, unspecified",dx_inc,,1,icd_original,no,include autoimmune diseases?
+C96.6,unifocal langerhans-cell histiocytosis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+D86,sarcoidosis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+D86.0,sarcoidosis of lung,dx_inc,,1,icd_original,no,include autoimmune diseases?
+D86.2,sarcoidosis of lung with sarcodoisis of lymph nodes,dx_inc,,1,icd_original,no,include autoimmune diseases?
+D86.8,sarcoidosis of other and combined sites,dx_inc,,1,icd_original,no,include autoimmune diseases?
+D86.9,"sarcoidosis, unspecified",dx_inc,,1,icd_original,no,include autoimmune diseases?
+E83.1,disorders of iron metabolism; haemochromatosis,dx_inc,Pulmonary fibrosis,1,icd_original,no,include autoimmune diseases?
+E84.0,cystic fibrosis with pulmonary manifestations,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J17.8,pneumonia in other diseases classified elsewhere,dx_inc,Pulmonary fibrosis,1,icd_original,no,incude pneumonia?
+J44.8,other specified chronic obstructive pulmonary disease + obliterating fibrous bronchiolitis,dx_inc,Pulmonary fibrosis,1,icd_original,no,COPD?
+J60,coalworker pneumoconiosis,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J61,pneumoconiosis due to asbestos and other mineral fibres,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J62,pneumoconiosis due to dust containing silica,dx_inc,,0,icd_original,yes,
+J62.0,pneumoconiosis due to talc dust,dx_inc,,0,icd_original,yes,
+J62.8,pneumoconiosis due to other dust containing silica,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J63,pneumoconiosis due to other inorganic dusts,dx_inc,,0,icd_original,yes,
+J63.0,aluminosis (of lung),dx_inc,,0,icd_original,yes,
+J63.1,bauxite fibrosis of lung,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J63.2,berylliosis,dx_inc,,0,icd_original,yes,
+J63.3,graphite fibrosis (of lung),dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J63.4,siderosis,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J63.5,stannosis,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J63.8,pneumoconiosis due to other specified inorganic dusts,dx_inc,,0,icd_original,yes,
+J64,unspecified pneumoconiosis,dx_inc,,0,icd_original,yes,
+J65,pneumoconiosis associated with tuberculosis,dx_inc,,0,icd_original,yes,
+J66,airway disease due to specific organic dust,dx_inc,,0,icd_original,yes,
+J66.0,byssinosis,dx_inc,,0,icd_original,yes,
+J66.1,flax-dresser disease,dx_inc,,0,icd_original,yes,
+J66.2,cannabinosis,dx_inc,,0,icd_original,yes,
+J66.8,airway disease due to other specific organic dusts,dx_inc,,0,icd_original,yes,
+J67,hypersensitivity pneumonitis due to organic dust,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J67.0,farmer lung,dx_inc,,0,icd_original,yes,
+J67.1,bagassosis,dx_inc,,0,icd_original,yes,
+J67.2,bird fancier lung,dx_inc,,0,icd_original,yes,
+J67.3,suberosis,dx_inc,,0,icd_original,yes,
+J67.4,maltworker lung,dx_inc,,0,icd_original,yes,
+J67.5,mushroom-worker lung,dx_inc,,0,icd_original,yes,
+J67.6,maple-bark-stripper lung,dx_inc,,0,icd_original,yes,
+J67.7,air-conditioner and humidifier lung,dx_inc,,0,icd_original,yes,
+J67.8,hypersensitivity pneumonitis due to other organic dusts,dx_inc,,0,icd_original,yes,
+J67.9,hypersensitivity pneumonitis due to unspecified organic dust,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J68,"respiratory conditions due to inhalation of chemicals, gases, fumes and vapours",dx_inc,,0,icd_original,yes,
+J68.0,"bronchitis and pneumonitis due to chemicals, gases, fumes and vapours",dx_inc,,0,icd_original,yes,
+J68.1,"pulmonary oedema due to chemicals, gases, fumes and vapours",dx_inc,,0,icd_original,yes,
+J68.2,"upper respiratory inflammation due to chemicals, gases, fumes and vapours, not elsewhere classified",dx_inc,,0,icd_original,yes,
+J68.3,"other acute and subacute respiratory conditions due to chemicals, gases, fumes and vapours",dx_inc,,0,icd_original,yes,
+J68.4,"chronic respiratory conditions due to chemicals, gases, fumes and vapours",dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J68.8,"other respiratory conditions due to chemicals, gases, fumes and vapours",dx_inc,,0,icd_original,yes,
+J68.9,"unspecified respiratory condition due to chemicals, gases, fumes and vapours",dx_inc,,0,icd_original,yes,
+J69,pneumonitis due to solids and liquids,dx_inc,,0,icd_original,yes,
+J69.0,pneumonitis due to food and vomit,dx_inc,,0,icd_original,yes,
+J69.1,pneumonitis due to oils and essences,dx_inc,,0,icd_original,yes,
+J69.8,pneumonitis due to other solids and liquids,dx_inc,,0,icd_original,yes,
+J70,respiratory conditions due to other external agents,dx_inc,,0,icd_original,yes,
+J70.0,acute pulmonary manifestations due to radiation,dx_inc,,0,icd_original,yes,
+J70.1,chronic and other pulmonary manifestations due to radiation,dx_inc,,0,icd_original,yes,
+J70.2,acute drug-induced interstitial lung disorders,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J70.3,chronic drug-induced interstitial lung disorders,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J70.4,drug-induced interstitial lung disorders,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J70.8,respiratory conditions due to other specified external agents,dx_inc,,0,icd_original,yes,
+J70.9,respiratory conditions due to unspecified external agent,dx_inc,,0,icd_original,yes,
+J80,adult respiratory distress syndrome,dx_inc,,0,icd_original,yes,
+J81,pulmonary oedema,dx_inc,,0,icd_original,yes,
+J82,"pulmonary eosinophilia, not elsewhere classified",dx_inc,,0,icd_original,yes,
+J84,other interstitial pulmonary diseases,dx_inc,,0,icd_original,yes,
+J84.0,alveolar and parietoalveolar conditions,dx_inc,,0,icd_original,yes,
+J84.1,other interstitial pulmonary diseases with fibrosis,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J84.8,other specified interstitial pulmonary diseases,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J84.9,"interstitial pulmonary disease, unspecified/nos",dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J92.0,pleural plaque with presence of asbestos,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J94.8,"other specified pleural conditions, includes pleural fibrosis with calcification",dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J98.2,interstitial emphysema,dx_inc,,1,icd_original,no,COPD?
+J98.4,other disorders of lung,dx_inc,,0,icd_original,yes,
+J99,"respiratory disorders in diseases classified elsewhere, includes fibrosing alveolitis associated with rheumatoid arthritis",dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J99.0,rheumatoid lung disease,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J99.1,interstitial lung disease due to collagen - respiratory disorders in other diffuse connective tissue disorders vascular disease,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+J99.8,"respiratory disorders in other diseases classified elsewhere, includes idiopathic pulmonary haemosiderosis",dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+M05.1D,rheumatoid lung disease,dx_inc,Pulmonary fibrosis,0,icd_original,yes,
+M30.1,polyarteritis with lung involvement [churg-strauss],dx_inc,,0,icd_original,yes,
+M31.3,wegener granulomatosis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M32,systemic lupus erythematosus,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M32.0,drug-induced systemic lupus erythematosus,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M32.1,systemic lupus erythematosus with organ or system involvement,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M32.8,other forms of systemic lupus erythematosus,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M32.9,"systemic lupus erythematosus, unspecified",dx_inc,,1,icd_original,no,include autoimmune diseases?
+M34,systemic sclerosis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M34.0,progressive systemic sclerosis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M34.8,lung disease with systemic sclerosis,dx_inc,Pulmonary fibrosis,0,icd_original,yes,include autoimmune diseases?
+M34.9,"systemic sclerosis, unspecified",dx_inc,,1,icd_original,no,include autoimmune diseases?
+M35,other systemic involvement of connective tissue,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M35.0,sicca syndrome [sj√∂gren],dx_inc,,1,icd_original,no,include autoimmune diseases?
+M35.1,other overlap syndromes,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M35.8,other specified systemic involvement of connective tissue,dx_inc,Pulmonary fibrosis,1,icd_original,no,
+M35.9,"systemic involvement of connective tissue, unspecified",dx_inc,,1,icd_original,no,
+M60,myositis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M60.0,infective myositis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M60.1,interstitial myositis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M60.8,other myositis,dx_inc,,1,icd_original,no,include autoimmune diseases?
+M60.9,"myositis, unspecified",dx_inc,,1,icd_original,no,include autoimmune diseases?
+P27.8,pulmonary fibroplasia - other chronic respiratory diseases originating in the perinatal period,dx_inc,Pulmonary fibrosis,1,icd_original,no,perinatal?
