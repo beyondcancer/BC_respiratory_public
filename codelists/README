@@ -1,0 +1,13 @@
+#Codelists Used to Define Outcomes
+
+This folder contains the codelists used to define study outcomes, including:
+
+##Metadata
+Metadata describing each codelist, created using the checklist and guidance from:
+Matthewman J, Andresen K, Suffel A, et al.
+Checklist and guidance on creating codelists for routinely collected health data research (version 2; peer review: 3 approved).
+NIHR Open Research 2024, 4:20.
+https://doi.org/10.3310/nihropenres.13550.2
+
+##CSV files
+CSV files containing the lists of clinical codes for each codelist.
