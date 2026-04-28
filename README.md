@@ -21,3 +21,8 @@ This repository includes data management code for deriving respiratory outcomes 
 
 Codelists are provided for both outcomes and covariates.  
 However, data management code for covariates is not included due to data access and governance constraints.
+
+------------
+
+## Protocol
+A link to the lay summary and technical summary of the protocol can be founf at the following link: https://www.cprd.com/approved-studies/long-term-health-cancer-survivors-compared-general-population-matched-cohort-study 
