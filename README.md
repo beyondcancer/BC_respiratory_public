@@ -25,4 +25,4 @@ However, data management code for covariates is not included due to data access 
 ------------
 
 ## Protocol
-A link to the lay summary and technical summary of the protocol can be founf at the following link: https://www.cprd.com/approved-studies/long-term-health-cancer-survivors-compared-general-population-matched-cohort-study 
+A link to the lay summary and technical summary of the protocol can be found at the following link: https://www.cprd.com/approved-studies/long-term-health-cancer-survivors-compared-general-population-matched-cohort-study 
