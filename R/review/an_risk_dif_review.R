@@ -3,18 +3,6 @@
 #Date: 20 January 2025
 #Description: Create risk differences by cancer
 ################################################################################
-# 
-# #Load in incidence table
-# incidence_table <- read.csv(paste0(path_results, "/first_dx_analysis_numbers_.csv"))%>%
-#   dplyr::select(cancer, outcome,n_events_exp, n_events_unexp, IR_exp, IR_unexp, t_fup_exp, t_fup_unexp) %>%
-#   mutate(events_combined = paste("[", n_events_exp,"/", n_events_unexp,"]", sep="")) %>%
-#   mutate(IR_combined = paste("[", sprintf("%.1f", IR_exp), "/", sprintf("%.1f", IR_unexp), "]", sep = ""))
-#   
-
-#   
-# #load in HR table (adjusted HR)
-# results <- readRDS(paste0(path_results, "/results_firstdx.rds")) %>%
-#            dplyr::filter(model_type == "Adjusted")
 
 hr <- readRDS(paste0(path_datafiles_for_analysis, "rev/an_cox_models_first_dx_crude_adj.rds"))
 
@@ -23,9 +11,9 @@ inc_rate <- read.csv(paste0(path_datafiles_for_analysis, "rev/prop_hazards_inc_r
 
 #Join hr column from results to review vars
 
-RD <- inc_rate %>% left_join(hr, by = c("cancer", "outcome", "model_type"))
+ir <- inc_rate %>% left_join(hr, by = c("cancer", "outcome", "model_type"))
 
-RD <- RD %>%
+ ir <- ir %>%
   mutate(
     # Incidence rate per 1,000 person-years
     IR_exp = (events_exp_adj / total_fup_exp_adj) * 1000,
@@ -57,7 +45,7 @@ RD <- RD %>%
   mutate(cancer_label = cancer_label_map[cancer],
          outcome_label = outcome_label_map[outcome]) 
 
-RD <- RD %>%
+ir <- ir %>%
   mutate(events_combined = paste("[", events_exp_adj,"/", events_unexp_adj,"]", sep=""),
          IR_combined = paste("[", sprintf("%.1f", IR_exp), "/", sprintf("%.1f", IR_unexp), "]", sep = "")) %>%
   mutate(cancer_label = paste(cancer_label, events_combined, sep = "\n")) %>%
@@ -65,26 +53,69 @@ RD <- RD %>%
 
 #Extract the IR adjusted only
 
-RD_overall <- RD %>% filter(model_type %in% "Adjusted") %>%
+RD_overall <- ir %>% filter(model_type %in% "Adjusted") %>%
   group_by(cancer, outcome) %>%
   summarise(
     cancer_label = first(cancer_label),
-    outcome_label = first(outcome_label)
-  )
+    outcome_label = first(outcome_label),
+    )
+
+RD_tot <- RD %>% filter(model_type %in% "Adjusted") %>%
+  dplyr::select(cancer, outcome, model_type, RD, RD_lower, RD_upper) %>%
+  left_join(RD_overall) %>%
+  rename(RD_adj = RD,
+         RD_lower_adj = RD_lower,
+         RD_upper_adj = RD_upper)
 
 RD_time <- RD %>% filter(model_type %in% c("0-1 years", "1-3 years", "3-5 years", "5+ years")) %>%
   group_by(cancer, outcome) %>%
   summarise(
-    RD = mean(RD, na.rm = TRUE),
-    RD_lower = mean(RD_lower, na.rm = TRUE),
-    RD_upper = mean(RD_upper, na.rm = TRUE),
-  ) %>% left_join(RD_overall, by = c("cancer", "outcome")) 
+    RD_time = mean(RD, na.rm = TRUE),
+    RD_lower_time = mean(RD_lower, na.rm = TRUE),
+    RD_upper_time = mean(RD_upper, na.rm = TRUE),
+  ) 
 
+RD_fin <- RD_tot %>% left_join(RD_time) %>%
+  mutate(use_adj = ifelse(is.na(RD_time), 1, 0)) %>%
+  mutate( RD = ifelse(use_adj== 1, RD_adj, RD_time),
+          RD_lower = ifelse(use_adj == 1, RD_lower_adj, RD_lower_time),
+          RD_upper = ifelse(use_adj == 1, RD_upper_adj, RD_upper_time)) %>%
+  mutate(outcome_label = paste0(outcome_label, ifelse(use_adj == 1, "*", ""))) 
+  
+#Add row for cancer = cns and outcome = bronch with outcome label "Bronchiectasis [NA/NA]. i want it to be row 63
+cns_row <- data.frame(
+  cancer = "cns", outcome = "bronch", model_type = "Adjusted",
+  RD_adj = NA, RD_lower_adj = NA, RD_upper_adj = NA,
+  cancer_label = "Brain/CNS (C71-C72)\n[NA/NA]",
+  outcome_label = "Bronchiectasis [NA/NA]^",
+  RD_time = NA, RD_lower_time = NA, RD_upper_time = NA,
+  use_adj = 1, RD = NA, RD_lower = NA, RD_upper = NA
+)
 
+RD_fin <- bind_rows(
+  RD_fin[1:62, ],
+  cns_row,
+  RD_fin[63:nrow(RD_fin), ]
+)
 
-write.csv(RD_time, paste0(path_results, "/rev/RD.csv"))
+thy_row <- data.frame(
+  cancer = "thy", outcome = "bronch", model_type = "Adjusted",
+  RD_adj = NA, RD_lower_adj = NA, RD_upper_adj = NA,
+  cancer_label = "Thyroid (C73)\n[NA/NA]",
+  outcome_label = "Bronchiectasis [NA/NA]^",
+  RD_time = NA, RD_lower_time = NA, RD_upper_time = NA,
+  use_adj = 1, RD = NA, RD_lower = NA, RD_upper = NA
+)
 
-RD <- RD_time
+RD_fin <- bind_rows(
+  RD_fin[1:66, ],
+  thy_row,
+  RD_fin[67:nrow(RD_fin), ]
+)
+
+write.csv(RD_fin, paste0(path_results, "/rev/RD.csv"))
+
+RD <- RD_fin
 
 col1<- "#000"
 # Define color palette for outcomes
@@ -187,7 +218,7 @@ grid_plot <- gridExtra::arrangeGrob(
 
 rd_gph <- gridExtra::grid.arrange(
   grid_plot,
-  top = grid::textGrob("Adjusted Rate Difference per 1000 person-years",
+  top = grid::textGrob("Adjusted Rate Difference per 1,000 person-years",
                        gp = gpar(fontsize = 16, fontface = "bold"))
 )
 
